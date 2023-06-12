@@ -5,6 +5,7 @@ Lopputyössä oli tehtävänä suunnitella ja toteuttaa pilviarkkitehtuuri AWS:n
 ### Arkkitehtuurikuva
 
 <img src="/ict_infra_drawio.png">
+*Arkkitehtuurikuvaa on avattu enemmän templaatti-kohdassa*
 
 - **VPC** – virtuaalinen yksityinen verkkoympäristö
 - **Internet Gateway** – mahdollistaa kommunikaation VPC:n ja internetin välillä
