@@ -1,4 +1,4 @@
-### ICT-infrastruktuuri pilvialustalla -kurssin lopputyö
+## ICT-infrastruktuuri pilvialustalla -kurssin lopputyö
 
 Lopputyössä oli tehtävänä suunnitella ja toteuttaa pilviarkkitehtuuri AWS:n pilveen. Työssä piti luoda yksityiskohtainen arkkitehtuurikaavio ja CloudFormation-templaatti ympäristön pystyttämiseen.
 
@@ -6,15 +6,15 @@ Lopputyössä oli tehtävänä suunnitella ja toteuttaa pilviarkkitehtuuri AWS:n
 
 <img src="/ict_infra_drawio.png">
 
-**VPC** – virtuaalinen yksityinen verkkoympäristö
-**Internet Gateway** – mahdollistaa kommunikaation VPC:n ja internetin välillä
-**Application Load Balancer** – jakaa liikennettä EC2-palvelinten välillä
-**EC2** - virtuaalipalvelin
-**NAT Gateway** – mahdollistaa private subnetissä oleville resursseille pääsyn VPC-verkon ulkopuolella oleviin palveluihin
-**Lambda Function** – serverlessinä suoritettava koodinpalanen
-**IAM Role** – annetaan käyttöoikeuksia resursseille
-**CloudWatch** - loggauspalvelu
-**DynamoDB** – NoSQL-tietokantapalvelu
+- **VPC** – virtuaalinen yksityinen verkkoympäristö
+- **Internet Gateway** – mahdollistaa kommunikaation VPC:n ja internetin välillä
+- **Application Load Balancer** – jakaa liikennettä EC2-palvelinten välillä
+- **EC2** - virtuaalipalvelin
+- **NAT Gateway** – mahdollistaa private subnetissä oleville resursseille pääsyn VPC-verkon ulkopuolella oleviin palveluihin
+- **Lambda Function** – serverlessinä suoritettava koodinpalanen
+- **IAM Role** – annetaan käyttöoikeuksia resursseille
+- **CloudWatch** - loggauspalvelu
+- **DynamoDB** – NoSQL-tietokantapalvelu
 
 ### Templaatti
 
