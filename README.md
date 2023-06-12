@@ -34,3 +34,5 @@ Templaatti ei ole niin iso, että sitä olisi vielä esimerkiksi helpomman tulki
 - VPC ja subnetit (ja IAM-roolit)
 - EC2 ja ALB
 - Lambdat ja DynamoDB
+
+Kurssi suoritettu 5/2023.
