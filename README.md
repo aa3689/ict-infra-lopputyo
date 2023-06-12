@@ -29,7 +29,7 @@ Templaatissa luodaan myös kaksi EC2-instanssia (Linux-palvelin) julkisiin alive
 Parameters-kohta templaatissa määrittää arvoja, joita käyttäjältä kysytään infraa
 pystyttäessä: tässä tapauksessa key-pairia EC2:n luomiseen sekä nimeä ympäristölle, joka tagataan resursseihin. Parametreihin olisi voinut määrittää lisäksi esim. instanssityypin ja AZ:n valinnan, mutta yksinkertaistamisen vuoksi ne ovat kovakoodattuna.
 
-Templaatti ei ole niin iso, että sitä olisi vielä helpomman tulkittavuuden vuoksi tarvinnut jakaa pienempiin kokonaisuuksiin (stackeiksi). Teoriassa sen olisi voinut jakaa mahdollisesti esim. seuraavanlaisesti:
+Templaatti ei ole niin iso, että sitä olisi vielä esimerkiksi helpomman tulkittavuuden vuoksi tarvinnut jakaa pienempiin kokonaisuuksiin (stackeiksi). Teoriassa sen olisi voinut jakaa mahdollisesti vaikka seuraavanlaisesti:
 
 - VPC ja subnetit (ja IAM-roolit)
 - EC2 ja ALB
